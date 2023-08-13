@@ -1,0 +1,153 @@
+body{
+    background: #f2f2f7;
+}
+.navBar{
+    background: #fff;
+    top: 0;
+    height: 44px;
+    min-height: 44px;
+    border-bottom: 1px solid #979797;
+    padding: 8px;
+}
+.navBar ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vh;
+    margin-right: 8vh;
+}
+.navBar ul li{
+    list-style: none;
+    font-weight: 800;
+    color: #edbf1a;
+}
+.navBar ul:hover{
+    background: none;
+}
+.cardbody{
+    padding:1%;
+}
+
+.row{
+    display: flex;
+    margin: auto;
+    width: 95%;
+}
+.col{
+    padding: 10px;
+    
+}
+.leftSide, .rightSide{
+    height: 74vh;
+    border-radius: 10px;
+}
+
+.leftSide{
+    background: #ffffff;
+    border: 1px solid #e4e1e1;
+    padding: 10px;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+textarea:focus{
+    outline: #e4e1e1;
+}
+.textInput {
+    margin-top: -10px;
+    background: #fff;
+    border: 1px solid #e4e1e1;
+    border-top: none;
+    padding: 10px;
+    resize: none;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+}
+.textNav{
+    background: #fbfbfd;
+    height: 90px;
+    border-radius:8px 8px 0 0;
+    border: 1px solid #dedee4;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 15px;
+}
+.textNav button{
+    border: none;
+    padding: none;
+    background: none;
+}
+.textNav i{
+    margin-left: 15px;
+    font-size: 20px;
+    background: none;
+    color: #edbf1a;
+}
+
+#date-container{
+    padding: 10px;
+    position: relative;
+    border-bottom: none;
+    text-align: center;
+    background: #ffffff;
+    color: #b4b4b4;
+    border: 1px solid #dedee4;
+    border-top: none;
+    border-bottom: none;
+
+}
+.inputField, i{
+    border: 1px solid #dedee4;
+    padding: 5px;
+    background-color: #dedee4;
+    border-radius: 8px;
+}
+.inputLeft{
+    background-color: #dedee4;
+    padding: 5px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+    background-color: #dedee4;
+}
+
+#note ul {
+    padding: 20px;
+    position: relative;
+    border-bottom: 2px solid #e4e1e1;
+    list-style: none;
+    border-radius: 8px;
+    transition: .2s;
+}
+#note i{
+    background: none;
+}
+
+div ul:hover{
+    background-color: #edbf1a;
+    border-radius: 8px;
+    transition: 1s;
+}
+#account{
+    display: none;
+}
+#account div{
+    margin-top: 5px;
+    margin-left: -8%;
+    position: absolute;
+    background: #f2f2f7;
+    width:20vh;
+    padding: 10px;
+    border-radius: 8px 0 8px 8px;
+    border: 1px solid #dedee4;
+}
+#account div ul{
+    display: block;
+    margin-left: -5%;
+    width:20vh;
+    padding: 5px;
+    color: #ffffff;
+
+}

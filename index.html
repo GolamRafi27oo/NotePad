@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/style.css">
+    <script src="https://kit.fontawesome.com/341994b7aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navBar">
+        <ul>
+            <li><i class="fa-solid fa-n fa-fade"></i> NotePad</li>
+            <li id="account"><i class="fa-regular fa-user"></i>
+                <div>
+                    <ul>
+                        <li>Login</li>
+                        <li>Dark Mode</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="cardbody center">
+        <div class="row">
+            <div class="col-4">
+
+                <div class="inputField">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass fa-fade"></i>
+                    <input class="inputLeft col-10" type="text" placeholder="Search your note!" aria-label="text"> 
+                </div> 
+                <div class="leftSide">
+                    <div id="note">
+                        <ul id="1">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                        <ul id="2">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                        <ul id="3">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                        <ul id="4">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                        <ul id="5">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                        <ul id="6">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                        <ul id="7">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                        <ul id="8">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                        <ul id="9">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                        <ul id="10">
+                            <li><h6>Hello</h6></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="textNav">
+                    <button><i class="fa-solid fa-trash"></i></button>
+                    <button><i class="fa-regular fa-pen-to-square"></i></button>
+                </div>
+                <h6 id="date-container">date</h6>
+                <div class="rightSide">
+                    <textarea class="col-12 textInput"  cols="30" rows="20" placeholder="write your text"></textarea> 
+                    <button type="button" class="btn btn-warning col-12">Save</button>            
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javaScript" src="app/main.js"></script>
+</body>
+</html>
