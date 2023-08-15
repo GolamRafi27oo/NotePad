@@ -94,8 +94,11 @@ textarea:focus{
     border: 1px solid #dedee4;
     border-top: none;
     border-bottom: none;
-
 }
+.inputField{
+    margin-bottom: 10px;
+}
+
 .inputField, i{
     border: 1px solid #dedee4;
     padding: 5px;
@@ -116,7 +119,7 @@ input:focus{
 #note ul {
     padding: 20px;
     position: relative;
-    border-bottom: 2px solid #e4e1e1;
+    border-bottom: 3px solid #e4e1e1;
     list-style: none;
     border-radius: 8px;
     transition: .2s;
@@ -130,11 +133,8 @@ div ul:hover{
     border-radius: 8px;
     transition: 1s;
 }
-#account{
-    display: none;
-}
 #account div{
-    margin-top: 5px;
+    margin-top: 8px;
     margin-left: -8%;
     position: absolute;
     background: #f2f2f7;
@@ -142,6 +142,7 @@ div ul:hover{
     padding: 10px;
     border-radius: 8px 0 8px 8px;
     border: 1px solid #dedee4;
+    display: none;
 }
 #account div ul{
     display: block;
