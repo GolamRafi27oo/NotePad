@@ -167,6 +167,17 @@ div ul:hover{
     display: none;
 }
 
+.sidebarAnimation{
+    animation: slide-out 0.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+}
+
+    
+@keyframes slide-out {
+    0% { transform: translateX(-15%); }
+    100% { transform: translateX(0%); }
+}
+
 @media screen and (max-width: 629px) {
     #leftSide{
         display: none;
@@ -174,6 +185,7 @@ div ul:hover{
         margin-top: 15vh;
         box-shadow: 5px 5px 5px #888888;
         height: 60%;
+        transition: 1s;
     }
     .rightSide{
         display: grid;

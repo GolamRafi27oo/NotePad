@@ -32,15 +32,15 @@ account.addEventListener("click", function () {
 });
 
 let sidebar = document.getElementById("sidebar");
+let leftSideID = document.getElementById("leftSide");
 
 let sidebarCount = 0;
 sidebar.addEventListener("click",function (){
   sidebarCount++;
   if (sidebarCount % 2 == 1) {
-    let leftSideID = document.getElementById("leftSide");
     leftSideID.style.display = "block";
+    leftSideID.classList.add("sidebarAnimation");
   } else {
-    let leftSideID = document.getElementById("leftSide");
     leftSideID.style.display = "none";
   }
 })
