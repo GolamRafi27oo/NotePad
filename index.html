@@ -12,22 +12,23 @@
     <div class="navBar">
         <ul>
             <li><i class="fa-solid fa-n fa-fade"></i> NotePad</li>
-            <li id="account"><i class="fa-regular fa-user"></i>
-                <div id="accountOpen">
-                    <ul>
-                        <li>Login</li>
-                        <li>Dark Mode</li>
-                    </ul>
-                </div>
-            </li>
+            <ul>
+                <li id="accountOpen">
+                    <div>
+                        <ul>
+                            <li>Login</li>
+                            <li> Dark Mode <input type="checkbox"></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="account"><i id="account" class="fa-regular fa-user"></i></li>
+            </ul>
         </ul>
     </div>
     <div class="cardbody center">
         <div class="row">
             <div class="col-4">
-
-
-                <div class="leftSide">
+                <div class="leftSide" id="leftSide">
                     <div class="inputField">
                         <i class="fa-sharp fa-solid fa-magnifying-glass fa-fade"></i>
                         <input class="inputLeft col-10" type="text" placeholder="Search your note!" aria-label="text"> 
@@ -66,8 +67,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-8" id="rightbody">
                 <div class="textNav">
+                    <button id="sidebar"><i class="fa-solid fa-bars"></i></button>
                     <button><i class="fa-solid fa-trash"></i></button>
                     <button><i class="fa-regular fa-pen-to-square"></i></button>
                 </div>
